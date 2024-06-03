@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<RemoteSystem>
+  <Comment />
+  <Description />
+  <Name>Ian_Mutai_Redwood</Name>
+  <Partition type="Partition" path="GLOBAL" />
+  <ParentApplication />
+  <Location>https://api.github.com/IanMutaiRed</Location>
+  <Username>{token}</Username>
+  <Password><![CDATA[{RedwoodSecureStorage}:1;ueDR/cHPR4R3fnVBYPMHA9KG2789W4FYkYsLaelzf1R1dsax4TSkAy9hpByMFAGp0tTA0SCC1Mq2Bna31ng9NLMTz5deEfLAOYLyB+l5ELo=]]></Password>
+  <Type>Destination</Type>
+  <AllowRuleSetOverride>true</AllowRuleSetOverride>
+  <Options />
+  <PushAcceptorJobDefinition />
+  <PusherJobDefinition type="JobDefinition" path="GLOBAL.Github_Promote_To" />
+  <PromoteFurtherJobDefinition />
+  <ImportRuleSet />
+</RemoteSystem>
